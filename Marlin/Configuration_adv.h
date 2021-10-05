@@ -4189,7 +4189,7 @@
 //
 // M100 Free Memory Watcher to debug memory usage
 //
-//#define M100_FREE_MEMORY_WATCHER
+#define M100_FREE_MEMORY_WATCHER
 
 //
 // M42 - Set pin states
@@ -4199,17 +4199,17 @@
 //
 // M43 - display pin status, toggle pins, watch pins, watch endstops & toggle LED, test servo probe
 //
-//#define PINS_DEBUGGING
+#define PINS_DEBUGGING
 
 // Enable Marlin dev mode which adds some special commands
-//#define MARLIN_DEV_MODE
+#define MARLIN_DEV_MODE
 
 #if ENABLED(MARLIN_DEV_MODE)
   /**
    * D576 - Buffer Monitoring
    * To help diagnose print quality issues stemming from empty command buffers.
    */
-  //#define BUFFER_MONITORING
+  #define BUFFER_MONITORING
 #endif
 
 /**
