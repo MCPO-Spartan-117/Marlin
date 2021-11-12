@@ -27,7 +27,7 @@ bdf2u8g
 # OS
 #
 applet/
-*.DS_Store
+.DS_Store
 
 #
 # Misc
@@ -165,3 +165,6 @@ cmake-build-*
 # Python
 __pycache__
 venv
+
+# IOLogger logs
+*_log.csv
